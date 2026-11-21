@@ -1,0 +1,157 @@
+src/app/icon.svg
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-6
+src/lib/site.ts
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-7,17-42
+  s_21bcdd59e4ba5f::t_a7447a9a5d20b8 16
+  s_21bcdd59e4ba5f::t_6c8c4bfdbd7646 8-15,43
+src/components/features.tsx
+  s_21bcdd59e4ba5f::t_c37956ecc38fca 4,6,16,21-22,27-30,33-34,39-40,57-58,61-62,64-69,91,139,142-146
+  s_21bcdd59e4ba5f::t_179f71c31cbc0d 112
+  s_21bcdd59e4ba5f::t_a7447a9a5d20b8 7,9-14,17-20,41-42,44,49-50,115,120-121,124,138
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 1-3,5,8,15,23-26,31-32,35-38,43,45-48,51-56,59-60,63,70-90,92-111,113-114,116-119,122-123,125-137,140-141
+src/components/scene/textures.ts
+  s_21bcdd59e4ba5f::t_b5cd365fd6d8a7 1-116
+src/components/footer.tsx
+  s_21bcdd59e4ba5f::t_7261329a48b762 2-6,8-15,17,19-21,23-27
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 7
+  s_21bcdd59e4ba5f::t_7f758ef09902e5 22
+  s_21bcdd59e4ba5f::t_f235d4f4259fd4 1,16,18
+next.config.ts
+  s_21bcdd59e4ba5f::t_2bd4dc2e3430cb 7
+  s_21bcdd59e4ba5f::t_38a4d453f8e4fc 1-6,8-18
+src/app/robots.ts
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-10
+public/llms.txt
+  s_21bcdd59e4ba5f::t_bb857177e15685 14
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 1-13,15-16,25-36
+  s_21bcdd59e4ba5f::t_e9cbcc3539f3c0 17-24
+  s_21bcdd59e4ba5f::t_fc77a28e362f6d 37
+src/components/reveal.tsx
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 1-2
+  s_21bcdd59e4ba5f::t_086ab54f2cab23 3
+package.json
+  s_21bcdd59e4ba5f::t_78e51c6b3d35f9 16
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 9-10
+  s_21bcdd59e4ba5f::t_8e32eb36008472 21
+  s_21bcdd59e4ba5f::t_1132cc416f168c 1-8,11-15,17-20,22-36
+src/app/changelog/page.tsx
+  s_21bcdd59e4ba5f::t_e9cbcc3539f3c0 68
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 1-67,69-100
+src/components/providers.tsx
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 3-25
+  s_21bcdd59e4ba5f::t_4e734ffe63fa7f 1-2
+src/app/manifest.ts
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-15
+src/components/install.tsx
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 37
+  s_21bcdd59e4ba5f::t_7261329a48b762 1-36,38-88
+src/components/agents.tsx
+  s_21bcdd59e4ba5f::t_220b024a3dc5c6 25,27,35
+  s_21bcdd59e4ba5f::t_1a98f4d8a344be 1-24,26,28-34,36-44
+public/agents/claude-code.svg
+  s_21bcdd59e4ba5f::t_4e8e41af40e3c8 1
+src/app/opengraph-image.tsx
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-51
+src/app/globals.css
+  s_21bcdd59e4ba5f::t_e9cbcc3539f3c0 19,32-37,77-82
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 16,20,22-23,25-31,41-42,47,53,58,68-76,83-92,98-99
+  s_21bcdd59e4ba5f::t_65d26146198699 1-15,17-18,21,24,38-40,43-46,48-52,54-57,59-67,93-97
+src/components/internals.tsx
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 1-11,13-38
+  s_21bcdd59e4ba5f::t_bb857177e15685 12
+src/components/daemon.tsx
+  s_21bcdd59e4ba5f::t_7261329a48b762 1-23,30,34-44,46-49,51-57,59-72,74-90,92,96-104
+  s_21bcdd59e4ba5f::t_7f758ef09902e5 45,58,73,95
+  s_21bcdd59e4ba5f::t_a7447a9a5d20b8 91,93-94
+  s_21bcdd59e4ba5f::t_fe137986d5ec25 24-29,31-33
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 50
+src/app/page.tsx
+  s_21bcdd59e4ba5f::t_1a98f4d8a344be 1,19
+  s_21bcdd59e4ba5f::t_7261329a48b762 3,5-8,11-18,20-21,24,27,29
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 4,9-10,22,25,28
+  s_21bcdd59e4ba5f::t_e9cbcc3539f3c0 2,23
+  s_21bcdd59e4ba5f::t_dfaff401d880b8 26,30-31
+src/app/layout.tsx
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-53
+  s_21bcdd59e4ba5f::t_ff7a049ec84665 54-67
+src/components/hero.tsx
+  s_21bcdd59e4ba5f::t_c37956ecc38fca 1-8,10-14,16-41
+  s_21bcdd59e4ba5f::t_179f71c31cbc0d 15
+  s_21bcdd59e4ba5f::t_7f758ef09902e5 9
+src/app/sitemap.ts
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-4,9
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 5-8
+public/agents/devin.svg
+  s_21bcdd59e4ba5f::t_4e8e41af40e3c8 1
+content/CHANGELOG.md
+  s_21bcdd59e4ba5f::t_8e32eb36008472 1-432
+src/components/benchmarks.tsx
+  s_21bcdd59e4ba5f::t_e9cbcc3539f3c0 1-117
+src/components/scene/hero-scene.tsx
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 32-37
+  s_21bcdd59e4ba5f::t_c0c694ba2ca630 1-31,38-50
+src/components/json-ld.tsx
+  s_21bcdd59e4ba5f::t_df012832b1958a 1-53
+src/lib/changelog.ts
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 1-36
+src/components/scene/sessions.ts
+  s_21bcdd59e4ba5f::t_b5cd365fd6d8a7 1-150
+src/components/nav.tsx
+  s_21bcdd59e4ba5f::t_e9cbcc3539f3c0 9
+  s_21bcdd59e4ba5f::t_c37956ecc38fca 1-6,12-15,17,19-20,22-23,25,27-36,39-41,43-47
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 7-8,10-11,16,38
+  s_21bcdd59e4ba5f::t_ab119712f48492 18,21,24,26,37,42
+src/components/scene/workspace-scene.tsx
+  s_21bcdd59e4ba5f::t_c0c694ba2ca630 1-34,37,39,42-43,45-49,51-53,55-85,87-89,91-172,175,188-212,215,218-248,250,257-275,278-333,335-357
+  s_21bcdd59e4ba5f::t_dbfc847c8581ea 40,334
+  s_21bcdd59e4ba5f::t_f1082d5f2bfdaf 54
+  s_21bcdd59e4ba5f::t_9034ba02f03853 35-36,38,44,173-174,176-180,182-187,213-214,216-217,249,276-277
+  s_21bcdd59e4ba5f::t_e9ab9728df4e02 181
+  s_21bcdd59e4ba5f::t_c37956ecc38fca 50,86,90,251-256
+  s_21bcdd59e4ba5f::t_d469fe10ee01ed 41
+AGENTS.md
+  s_21bcdd59e4ba5f::t_fb74fd4d2840ae 16,18
+  s_21bcdd59e4ba5f::t_28c3d5d43f979d 15,19
+  s_21bcdd59e4ba5f::t_d469fe10ee01ed 10-14
+  s_21bcdd59e4ba5f::t_e9cbcc3539f3c0 17
+  s_21bcdd59e4ba5f::t_5314c701904b6a 1-9
+public/agents/antigravity.svg
+  s_21bcdd59e4ba5f::t_4e8e41af40e3c8 1
+public/agents/opencode.svg
+  s_21bcdd59e4ba5f::t_4e8e41af40e3c8 1
+src/components/faq.tsx
+  s_21bcdd59e4ba5f::t_d708c9e90817d1 1-11,14-25
+  s_21bcdd59e4ba5f::t_179f71c31cbc0d 12-13
+public/agents/codex.svg
+  s_21bcdd59e4ba5f::t_4e8e41af40e3c8 1
+.gitignore
+  s_21bcdd59e4ba5f::t_8fa733b786158e 1-41
+README.md
+  s_21bcdd59e4ba5f::t_899d0fdc5e9b1f 1-36
+eslint.config.mjs
+  s_21bcdd59e4ba5f::t_ec5452b7316102 1-18
+pnpm-lock.yaml
+  s_21bcdd59e4ba5f::t_938413227c5df0 1-5378
+pnpm-workspace.yaml
+  s_21bcdd59e4ba5f::t_5ab662f678804a 1-3
+public/icon.svg
+  s_21bcdd59e4ba5f::t_d15d6cda24013b 1-6
+tsconfig.json
+  s_21bcdd59e4ba5f::t_6adee26e6d4bcc 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9a282233db6d0a5d2ab2c52005edbc48662df2f6",
+  "prompts": {},
+  "sessions": {
+    "s_21bcdd59e4ba5f": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "kindly-knot",
+        "model": "unknown"
+      },
+      "human_author": "asta-nguyen <asta.dev.520@gmail.com>"
+    }
+  }
+}
