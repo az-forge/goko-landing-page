@@ -13,6 +13,7 @@
   --font-mono: var(--font-geist-mono);
   --animate-rise: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-cell: cell 2.4s ease-in-out infinite;
+  --animate-flow: flow 1.5s ease-in infinite both;
 }
 
 @keyframes rise {
@@ -32,6 +33,21 @@
 @keyframes grow-x {
   from {
     transform: scaleX(0);
+  }
+}
+
+@keyframes flow {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  15%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-2.5rem);
   }
 }
 
@@ -93,6 +109,7 @@ details > summary::-webkit-details-marker {
 
 @media (prefers-reduced-motion: reduce) {
   .animate-rise,
+  .animate-flow,
   .animate-cell {
     animation: none;
   }
