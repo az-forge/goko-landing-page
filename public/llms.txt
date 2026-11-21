@@ -1,0 +1,37 @@
+# Goko
+
+> Goko is a free, open source desktop app for macOS, Linux and Windows that runs command-line coding agents (Claude Code, Codex, OpenCode, Devin, Antigravity) and plain shells side by side, grouped by project.
+
+## Key facts
+
+- Category: desktop app for running AI coding agents, also described as an IDE for agents.
+- Price and license: free, open source, Apache 2.0.
+- Platforms: macOS on Apple Silicon, Linux x86_64 and aarch64, Windows 10 1809 or later on x86_64. Intel Macs can build from source.
+- Supported agents: Claude Code, Codex, OpenCode, Devin, Antigravity, any custom command, and a plain shell. Each agent runs as its own CLI inside a real terminal.
+- Architecture: a native Rust app talks to a separate Rust daemon, gokod, which owns every terminal and agent process. The terminal engine is libghostty-vt.
+- Background sessions: closing the window or quitting Goko does not stop agents. The next launch attaches to the same sessions.
+- Built-in tools: tabs and split panes, a file editor with text search, diffs with staging, commit and push, Git history, stashes, and a Project Map to switch projects.
+- Attention: agents that report their state show as working, waiting or done, and a Needs you list jumps to the session that is waiting.
+- Data: projects, sessions and settings are stored locally in SQLite. The daemon listens on a local Unix socket (a named pipe on Windows).
+
+## Measured results (from the changelog)
+
+- A terminal with a full 5,000-line history uses 5.4 MB, down from 15.8 MB before version 0.4.0. Twenty of them use 149 MB, down from 353 MB (log-like stream, 120 columns).
+- Terminal output is parsed about 2.3 times faster since 0.4.0.
+- With 20 idle sessions the daemon wakes 11 times a second, down from 128, since 0.2.0.
+- The Context search index for git's own repository (4,875 files) is 34 MB and builds in 10 s, down from 110 MB and 17 s, since 0.2.0.
+- A History page on a repository with 83,000 commits loads in 0.11 s, down from 0.95 s, since 0.2.0.
+
+## Install
+
+- macOS and Linux: `curl -fsSL https://github.com/asta-nguyen/goko/releases/latest/download/install.sh | sh`
+- Windows (PowerShell): `irm https://github.com/asta-nguyen/goko/releases/latest/download/install.ps1 | iex`
+- Running the command again updates Goko.
+
+## Links
+
+- [Source code](https://github.com/asta-nguyen/goko)
+- [Latest release](https://github.com/asta-nguyen/goko/releases/latest)
+- [README](https://github.com/asta-nguyen/goko/blob/main/README.md): install, build and run instructions
+- [Architecture](https://github.com/asta-nguyen/goko/blob/main/ARCHITECTURE.md): how the app, daemon and terminals fit together
+- [Changelog](https://github.com/asta-nguyen/goko/blob/main/CHANGELOG.md)
