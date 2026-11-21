@@ -1,0 +1,23 @@
+src/app/globals.css
+  s_21bcdd59e4ba5f::t_734b609931b438 16,39-53,112
+src/components/daemon.tsx
+  s_21bcdd59e4ba5f::t_1e5959c02871dc 51-60,62-137,191,205
+  s_21bcdd59e4ba5f::t_4b3abc1c5bbe04 61
+  s_21bcdd59e4ba5f::t_734b609931b438 5,22-31,138-170,174-179,184-185,190,192-200,202-203,208-229
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "59c441bac121384d2bb980c90a3ee3c607921c0b",
+  "prompts": {},
+  "sessions": {
+    "s_21bcdd59e4ba5f": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "kindly-knot",
+        "model": "unknown"
+      },
+      "human_author": "asta-nguyen <asta.dev.520@gmail.com>"
+    }
+  }
+}
