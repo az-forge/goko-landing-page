@@ -1,0 +1,44 @@
+src/components/nav.tsx
+  s_21bcdd59e4ba5f::t_50dac810d1169b 10,23-30,38-39,47-48
+src/components/scene/daemon-scene.tsx
+  s_21bcdd59e4ba5f::t_7e1ab8d11e8067 223
+  s_21bcdd59e4ba5f::t_ef7a79def06b82 307-309,316-320,323-327
+  s_21bcdd59e4ba5f::t_77160f28d3b4d0 3,6-7,219-222,224-229,231,235,238-248,266,272-273,275-276,278-306,310-315,321-322,328-331
+  s_21bcdd59e4ba5f::t_b3747a7f7ac0aa 1-2,4-5,8-9,11-15,18-30,33-37,39-42,44-81,83-115,120-121,123-218,230,232,234,237,249-251,253-256,259-263,265,267-271,274,277,332-333
+  s_21bcdd59e4ba5f::t_56e3129acc3ceb 10,16-17,31-32,38,43,82,116-119,122,233,236,252,257-258,264
+src/components/hero.tsx
+  s_21bcdd59e4ba5f::t_dc58e845c8360b 24-25,33-34
+src/components/umami-analytics.tsx
+  s_21bcdd59e4ba5f::t_52b8839d56982b 1-52
+src/app/layout.tsx
+  s_21bcdd59e4ba5f::t_346c3e7a94b25b 4,65-67
+src/components/daemon.tsx
+  s_21bcdd59e4ba5f::t_b3747a7f7ac0aa 3-4,6,172-231,235-236,241,247-254,256-258,260
+src/components/install.tsx
+  s_21bcdd59e4ba5f::t_7cb11ecbb3e35b 7,24,47,82-87
+src/app/changelog/page.tsx
+  s_21bcdd59e4ba5f::t_3c05754a030878 33-34
+README.md
+  s_21bcdd59e4ba5f::t_00bc98b41a2e28 23-35
+src/components/footer.tsx
+  s_21bcdd59e4ba5f::t_c4ea2f2fb26add 5-6,15-22
+src/components/scene/window-texture.ts
+  s_21bcdd59e4ba5f::t_b3747a7f7ac0aa 1-44,47-52,54,56-111,113-156
+  s_21bcdd59e4ba5f::t_56e3129acc3ceb 45-46,53,55,112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "146c7c3f847143d5931d8fa4838aadb3f0283c52",
+  "prompts": {},
+  "sessions": {
+    "s_21bcdd59e4ba5f": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "kindly-knot",
+        "model": "unknown"
+      },
+      "human_author": "asta-nguyen <asta.dev.520@gmail.com>"
+    }
+  }
+}
