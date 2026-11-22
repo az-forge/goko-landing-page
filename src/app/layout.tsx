@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Providers } from "@/components/providers";
+import { UmamiAnalytics } from "@/components/umami-analytics";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -61,6 +62,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-[100dvh] overflow-x-clip">
         <Providers>{children}</Providers>
         <div className="grain" aria-hidden />
+        {process.env.NODE_ENV === "production" && (
+          <UmamiAnalytics domain={process.env.NEXT_PUBLIC_SITE_URL ? new URL(SITE_URL).hostname : undefined} />
+        )}
       </body>
     </html>
   );

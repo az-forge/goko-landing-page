@@ -4,6 +4,7 @@ import { AppleLogoIcon, CheckIcon, CopyIcon, LinuxLogoIcon, WindowsLogoIcon } fr
 import { useState } from "react";
 import { GITHUB_URL, INSTALL } from "@/lib/site";
 import { Reveal } from "./reveal";
+import { trackUmamiEvent } from "./umami-analytics";
 
 const TABS = [
   { id: "unix", label: "macOS and Linux", command: INSTALL.unix, note: "Apple Silicon, Linux x86_64 and aarch64. Run it again to update." },
@@ -20,6 +21,7 @@ export function Install() {
       await navigator.clipboard.writeText(active.command);
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
+      void trackUmamiEvent("install_command_copied", { platform: active.id });
     } catch {
       setCopied(false);
     }
@@ -42,6 +44,7 @@ export function Install() {
                 role="tab"
                 aria-selected={tab === t.id}
                 onClick={() => {
+                  if (tab !== t.id) void trackUmamiEvent("install_platform_selected", { platform: t.id });
                   setTab(t.id);
                   setCopied(false);
                 }}
@@ -76,7 +79,12 @@ export function Install() {
           </div>
           <p className="border-t border-line px-6 py-4 text-sm text-muted sm:px-8">
             {active.note} Intel Macs can{" "}
-            <a href={`${GITHUB_URL}#build`} className="text-fg underline decoration-line underline-offset-4 hover:decoration-fg">
+            <a
+              href={`${GITHUB_URL}#build`}
+              data-analytics-event="build_from_source_click"
+              data-analytics-placement="install"
+              className="text-fg underline decoration-line underline-offset-4 hover:decoration-fg"
+            >
               build from source
             </a>
             .

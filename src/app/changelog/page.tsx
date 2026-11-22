@@ -30,6 +30,8 @@ export default function ChangelogPage() {
           Every Goko release and what changed in it, newest first. Downloads for each version are on{" "}
           <a
             href={`${GITHUB_URL}/releases`}
+            data-analytics-event="releases_click"
+            data-analytics-placement="changelog"
             className="inline-flex items-center gap-1 text-fg underline decoration-line underline-offset-4 hover:decoration-fg"
           >
             GitHub <ArrowUpRightIcon size={14} weight="bold" />

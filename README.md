@@ -20,6 +20,19 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Analytics
+
+Umami tracks pageviews on the landing page and changelog, excluding URL fragments and respecting Do Not Track. The tracker is disabled in `pnpm dev`. Set `NEXT_PUBLIC_SITE_URL` to the production origin at build time to restrict tracking to its hostname and exclude deployment previews.
+
+| Event | Trigger | Property |
+| --- | --- | --- |
+| `install_cta_click` | Download or Install link clicked | `placement`: `hero`, `nav`, `nav_menu` |
+| `install_platform_selected` | Installer tab changed | `platform`: `unix` (macOS/Linux), `windows` |
+| `install_command_copied` | Installer command successfully copied, not an installation | `platform`: `unix`, `windows` |
+| `github_click` | GitHub repo link clicked | `placement`: `hero`, `nav`, `footer` |
+| `releases_click` | GitHub Releases link clicked | `placement`: `changelog`, `footer` |
+| `build_from_source_click` | Build from source link clicked | `placement`: `install` |
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

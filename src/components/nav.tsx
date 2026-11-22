@@ -7,7 +7,7 @@ const LINKS = [
   ["Features", "/#features"],
   ["How it works", "/#daemon"],
   ["Benchmarks", "/#benchmarks"],
-  ["Install", "/#install"],
+  ["Install", "/#install", "install_cta_click"],
   ["Changelog", "/changelog"],
 ];
 
@@ -20,8 +20,14 @@ export function Nav() {
           Goko
         </Link>
         <div className="hidden gap-7 text-sm text-muted md:flex">
-          {LINKS.map(([label, href]) => (
-            <Link key={href} href={href} className="transition-colors hover:text-fg">
+          {LINKS.map(([label, href, event]) => (
+            <Link
+              key={href}
+              href={href}
+              data-analytics-event={event}
+              data-analytics-placement={event ? "nav_menu" : undefined}
+              className="transition-colors hover:text-fg"
+            >
               {label}
             </Link>
           ))}
@@ -29,6 +35,8 @@ export function Nav() {
         <div className="ml-auto flex items-center gap-2">
           <a
             href={GITHUB_URL}
+            data-analytics-event="github_click"
+            data-analytics-placement="nav"
             aria-label="Goko on GitHub"
             className="grid size-10 place-items-center rounded-full text-muted transition-colors hover:bg-raised hover:text-fg"
           >
@@ -36,6 +44,8 @@ export function Nav() {
           </a>
           <Link
             href="/#install"
+            data-analytics-event="install_cta_click"
+            data-analytics-placement="nav"
             className="rounded-full bg-fg px-4 py-2 text-sm font-medium text-bg transition-transform active:scale-[0.97]"
           >
             Download

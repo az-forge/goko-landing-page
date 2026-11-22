@@ -21,6 +21,8 @@ export function Hero() {
           <div className="mt-9 flex animate-rise flex-wrap items-center gap-3 [animation-delay:360ms]">
             <a
               href="#install"
+              data-analytics-event="install_cta_click"
+              data-analytics-placement="hero"
               className="flex items-center gap-2 rounded-full bg-accent px-6 py-3.5 font-medium text-accent-ink transition-transform hover:-translate-y-0.5 active:scale-[0.97]"
             >
               <DownloadSimpleIcon size={18} weight="bold" />
@@ -28,6 +30,8 @@ export function Hero() {
             </a>
             <a
               href={GITHUB_URL}
+              data-analytics-event="github_click"
+              data-analytics-placement="hero"
               className="flex items-center gap-1.5 rounded-full border border-line px-6 py-3.5 font-medium transition-colors hover:bg-raised active:scale-[0.97]"
             >
               View on GitHub
